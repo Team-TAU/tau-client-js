@@ -6,5 +6,20 @@
   "contributorsPerLine": 5,
   "contributorsSortAlphabetically": true,
   "skipCi": true,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "mtfoley",
+      "name": "Matthew",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3792749?v=4",
+      "profile": "https://twitter.com/MatthewTFoley",
+      "contributions": [
+        "projectManagement",
+        "tool"
+      ]
+    }
+  ],
+  "projectName": "tau-client-js",
+  "projectOwner": "Team-TAU",
+  "repoType": "github",
+  "repoHost": "https://github.com"
 }

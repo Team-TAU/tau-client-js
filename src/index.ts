@@ -1,2 +1,2 @@
-export * as TauSocket from './tau-socket';
-export * as TwitchEvents from './twitch-events';
+export * from './tau-socket';
+export * from './twitch-events';

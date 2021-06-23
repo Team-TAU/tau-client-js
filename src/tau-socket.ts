@@ -1,13 +1,13 @@
 import WebSocket from 'ws';
 import { TwitchEvents } from './twitch-events';
 
-export interface TauSocketOptions {
+interface TauSocketOptions {
   url: string;
   token: string;
   isSecure?: boolean;
 }
 
-export interface ConnectResult {
+interface ConnectResult {
   error?: Error;
   message?: string;
 }

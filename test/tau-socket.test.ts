@@ -10,8 +10,6 @@ import { TauSocket } from '../src/tau-socket';
 const ERR_INVALID_URL = 'ERR_INVALID_URL';
 // const successMessage = 'Successfully authenticated with TAU and listening for events...';
 
-
-
 describe('TauSocket', () => {
   let socket: TauSocket;
 

@@ -1,3 +1,7 @@
+dist
+yarn.lock
+.DS_Store
+
 # Logs
 logs
 *.log

@@ -1,0 +1,15 @@
+☐ Review/Get a second opinion on the socket creation and connection approach @created(Wed 06/23/2021 - 04:39 AM)
+  - Right now it's implemented by wrapping things in a `new Promise()` to control the execution flow and when to "return"
+    - Return after successful authentication
+    - Return after failure to open socket (such as due to 404 error - bad url)
+    - Return after failure to authenticate
+  - Maybe instead of using something like `this.isInitialSetup` use the `.once()` function for the relevant events when initializing? Example `this.socket.once('open', () => {});`
+☐ Determine the best way to mock the WebSocket for testing purposes @created(Wed 06/23/2021 - 05:08 AM)
+  Option 1:
+    jest.mock('ws', () => {
+      class MockedWebSocket {}
+
+      return MockedWebSocket;
+    });
+  Option 2:
+    https://www.npmjs.com/package/jest-websocket-mock
